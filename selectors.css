@@ -1,0 +1,30 @@
+div{
+border: 2px solid black;
+margin: 10px;
+}
+
+.sample{
+border: 2px dotted black;
+color: red;
+}
+#sample-id{
+    color: blueviolet;
+}
+.sample-div-1{
+    background-color: cadetblue;
+}
+div.sample-div-1:hover{
+    background-color: brown;
+    color:cadetblue;
+}
+form#signup-form input[type="submit"] {
+    background-color: yellow;   
+}
+form input:checked{
+    display: block;
+    margin-top: 3px;
+}
+
+form p:first-child{
+    color: red;
+}
