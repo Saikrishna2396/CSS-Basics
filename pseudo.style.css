@@ -1,0 +1,19 @@
+p.paragraph-element{
+    color: red;
+}
+p::before{
+    content: "=> ";
+    color: green;
+    font-size: x-large;
+}
+p::after{
+    content: " <= ";
+    color: green;
+    font-size: x-large;   
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: red;
+  }
