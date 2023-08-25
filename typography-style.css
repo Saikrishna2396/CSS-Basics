@@ -1,5 +1,7 @@
 p {
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: hsla(248, 53%, 25%,0.893);
+    font-weight: 100;
+    font-style: italic;
 }
