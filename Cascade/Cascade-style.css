@@ -1,0 +1,25 @@
+/* Specificity */
+/* id > class > tag */
+
+p {
+    color: rgb(215, 8, 8);
+    border: 2px red solid;
+    
+}
+
+p.some.class {
+   background-color: blue; 
+}
+
+p#some.class {
+    background-color: beige;
+}
+
+p#cascade-contant-color {
+    color: hsl(147, 86%, 35%);
+}
+
+/* .content-color {
+    background-color: hsl(298, 87%, 35%);
+} */
+
