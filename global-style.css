@@ -10,15 +10,11 @@
 #general-para-tag {
     color: hsl(0, 80%, 20%);
 }
-.contant-color{
+.content-color{
     color: var(--brown);
 }
 
 .highlight-content {
     color: var(--blue);
     background-color: hsl(56, 94%, 51%);
-}
-
-.simple-border {
-    border: solid red 2px;
 }
