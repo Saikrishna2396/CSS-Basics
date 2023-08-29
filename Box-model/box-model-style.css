@@ -1,0 +1,97 @@
+/* 
+padding-top === padding-block-start
+padding-bottom === padding-block-end
+padding-left===padding-inline-start
+padding-right===padding-inline-end
+ */
+
+ 
+p.para-box-model-style-1 {
+    width:60%;
+    color: red;
+    /* border-styles */
+    border-top: 3px solid blueviolet;
+    border-bottom: 3px solid blue;
+    border-left: 3px solid rgb(43, 226, 92);
+    border-right: 3px solid rgb(144, 226, 43);
+
+    /* margin-styles */
+    margin-top: 25%;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+}
+
+p.para-box-model-style-2 {
+    margin: 30px 50px;
+    width: 80%;
+    border: 3px solid blueviolet;
+
+    /* padding-styles */
+    padding: 30px 50px;
+}
+
+p.para-box-model-style-3 {
+    width: 80%;
+    border-color: red;
+    border-width: 5px;
+    border-style: dashed;
+    border-top: 3px solid greenyellow;
+
+    /* margin-styles */
+    margin: 30px 40px 50px 60px;
+
+     /* padding-styles */
+     padding: 30px 40px 50px 60px ;
+
+}
+
+p.para-box-model-style-4 {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border-radius: 25%;
+    border-top-left-radius: 55%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 25%;
+
+}
+p.para-box-model-style-5 {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border-top-left-radius: 55%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 25%;
+
+}
+p.para-box-model-style-6 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(214, 16, 178);
+    border-radius: 50%;
+    content: This is sample test for box models;
+    text-align: center;
+    color: beige;
+
+}
+
+p.para-box-sizing {
+    width: 500px;
+    color: greenyellow;
+    margin: 30px;
+    /* padding: 20px; */
+    border: 3px solid red ;
+}
+
+p.para-box-sizing-2 {
+    width: 500px;
+    color: rgb(255, 47, 47);
+    box-sizing: border-box;
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid rgb(255, 0, 238) ;
+}
+
