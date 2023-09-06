@@ -1,0 +1,9 @@
+h1 {
+    background-color: navajowhite;
+    color: $heading-1-color;
+    font-family: $heading-1-font;
+}
+
+%generic-footer-style {
+    border: 5px solid rgb(81, 255, 0);
+}

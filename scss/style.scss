@@ -1,14 +1,28 @@
-// Define variables in SCSS
-$heading-1-color: rgb(128, 53, 0);
-$heading-1-font:Verdana, Geneva, Tahoma, sans-serif;
+@import "variables";
+@import "components";
+@import "functions";
 
-
-h1 {
-    background-color: navajowhite;
-    color: $heading-1-color;
-    font-family: $heading-1-font;
-}
 
 header {
-    border: 2px solid $heading-1-color;
-}
+            border: 2px solid red;
+            margin: 10px 0;
+            nav {
+                ul {
+                    @include block-highlight($color: rgb(8, 8, 8));
+                    $style: dotted;
+                    li {
+                        color: greenyellow;
+                    }
+                    li:first-child{
+                        color: red;
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+footer {
+            @extend %generic-footer-style;
+            font-size: 2rem;
+        }
+
