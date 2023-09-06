@@ -1,11 +1,30 @@
 h1 {
   background-color: navajowhite;
-  color: rgb(128, 53, 0);
+  color: rgb(51, 128, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+footer {
+  border: 5px solid rgb(81, 255, 0);
+}
+
 header {
-  border: 2px solid rgb(128, 53, 0);
+  border: 2px solid red;
+  margin: 10px 0;
+}
+header nav ul {
+  border: 1px dashed rgb(8, 8, 8);
+}
+header nav ul li {
+  color: greenyellow;
+}
+header nav ul li:first-child {
+  color: red;
+  font-size: 2rem;
+}
+
+footer {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
