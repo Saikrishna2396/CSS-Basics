@@ -1,0 +1,14 @@
+// Define variables in SCSS
+$heading-1-color: rgb(128, 53, 0);
+$heading-1-font:Verdana, Geneva, Tahoma, sans-serif;
+
+
+h1 {
+    background-color: navajowhite;
+    color: $heading-1-color;
+    font-family: $heading-1-font;
+}
+
+header {
+    border: 2px solid $heading-1-color;
+}
